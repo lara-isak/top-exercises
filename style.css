@@ -1,0 +1,18 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+} 
+
+button {
+  background-color: #fff;
+  border: 2px solid #000;
+  cursor: pointer;
+}
+
+.darkButton {
+  background-color: #000;
+  border: 2px solid #fff;
+}
+
+.ri-sun-line {
+  color: #fff;
+}
