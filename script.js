@@ -1,20 +1,14 @@
-let userName = prompt("Who's there?");
+let shoppingDone = prompt("Is shopping done for the week?", "");
+let childsAllowance;
 
-if(userName == "Admin") {
-  let password = prompt("And what is the magic word?");
-  if(password == "TheMaster") {
-    alert(`Welcome ${userName}!`);
-  }
-  else if(password == '' || password == null) {
-    alert('Cancelled');
-  }
-  else{
-    alert('Wrong password');
-  }
+console.log(typeof(shoppingDone));
+// An empty string converts to 0. A non-numeric string converts to NaN which is always false.
+
+if(shoppingDone === "yes") {
+  childsAllowance = 10;
+  alert(childsAllowance);
 }
-else if(userName == '' || userName == null) {
-  alert('Cancelled');
-}
-else{
-  alert("I don't know you");
+else {
+  childsAllowance = 5;
+  alert(childsAllowance);
 }
