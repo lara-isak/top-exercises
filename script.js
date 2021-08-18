@@ -24,6 +24,3 @@ function changeTheme() {
       iconButton.classList.remove('darkButton');
     }
   }
-
-
-
